@@ -5,10 +5,13 @@ def fizzbuzz(number)
   elsif number % 5 == 0
   return "Buzz"
   
-  elsif number 15 % 5 == 0
+  elsif number % 15 ==0
   return "FizzBuzz"
 
-else
+ elsif number == 15
+  return "FizzBuzz"
+  
+  else
   return "nil"
   
   end
